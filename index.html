@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.js">
+    <title>Document</title>
+</head>
+<body>
+    <form id="input">
+        <div class="border">
+            <input type="text" name="fname">
+    <input type="button" onclick="myFunction1()" value="Clear"><br>
+    Số kí tự <input type="checkbox" id="checkbox1" name="checkbox1" value="ki tu">
+    <label for="checkbox1"></label><br>
+    Có chữ hoa<input type="checkbox" id="checkbox2" name="checkbox2" value="chu hoa">
+    <label for="checkbox2"> </label><br>
+    Có số khung<input type="checkbox" id="checkbox3" name="checkbox3" value="so khung">
+    <label for="checkbox3"> </label><br>
+    Có kí tự đặc biệt<input type="checkbox" id="checkbox4" name="checkbox4" value="kitudacbiet">
+    <label for="checkbox4"></label><br>
+    <input type="button" onclick="myFunction2()" value="Generate"><br>
+    </form>
+    <script>
+        function myFunction1() {
+          document.getElementById("input").reset();
+        }
+        </script>
+    <script>
+        function myFunction2() {
+          document.getElementById("input").reset();
+        }
+        </script>
+        </div>
+    
+</body>
+</html>
