@@ -9,8 +9,8 @@
 </head>
 <body>
     <form id="input">
-        <div class="border">
-            <input type="text" name="fname">
+    <div class="border">
+    <input type="text" name="fname">
     <input type="button" onclick="myFunction1()" value="Clear"><br>
     Số kí tự <input type="checkbox" id="checkbox1" name="checkbox1" value="ki tu">
     <label for="checkbox1"></label><br>
@@ -20,19 +20,12 @@
     <label for="checkbox3"> </label><br>
     Có kí tự đặc biệt<input type="checkbox" id="checkbox4" name="checkbox4" value="kitudacbiet">
     <label for="checkbox4"></label><br>
-    <input type="button" onclick="myFunction2()" value="Generate"><br>
+    <button id="generate">Generate</button>
     </form>
     <script>
-        function myFunction1() {
-          document.getElementById("input").reset();
-        }
-        </script>
-    <script>
-        function myFunction2() {
-          document.getElementById("input").reset();
-        }
-        </script>
-        </div>
-    
+    function myFunction1() {
+    document.getElementById("input").reset();}
+    </script>
+    </div>
 </body>
 </html>
